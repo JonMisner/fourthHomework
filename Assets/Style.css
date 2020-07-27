@@ -1,12 +1,13 @@
 body{
 	background: #96d1e3;
-	text-align: center;
-}
-
-.text-muted{
-	color: blue;
+    text-align: center;
 }
 
 .option{
-  margin: 15px;
+    margin-left: 25px;
+    align-content: center;
+}
+
+.start{
+    margin: auto;
 }
