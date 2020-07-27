@@ -1,0 +1,12 @@
+body{
+	background: #96d1e3;
+	text-align: center;
+}
+
+.text-muted{
+	color: blue;
+}
+
+.option{
+  margin: 15px;
+}
