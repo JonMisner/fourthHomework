@@ -1,20 +1,16 @@
+
 body{
 	background: #96d1e3;
     text-align: center;
 }
 
+/* classes */
 .option{
     margin-left: 15px;
     align-content: center;
 }
 
 .start {margin: 25px;}
-
-#enterName{
-    background-color: #96d1e3;
-    margin-left: 25%;
-    margin-right: 25%;
-}
 
 .container {max-width: 800px;}
 
@@ -29,14 +25,21 @@ body{
     border-width: 12px;
 }
 
+.header {
+    font-weight: 600;
+    color: rgb(44, 94, 89);
+}
+
+/* ID's */
+#enterName{
+    background-color: #96d1e3;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 #restart {
     background-color: green;
     margin-right: 1em;
 }
 
 #clear {background-color: #96d1e3;}
-
-.header {
-    font-weight: 600;
-    color: rgb(44, 94, 89);
-}
