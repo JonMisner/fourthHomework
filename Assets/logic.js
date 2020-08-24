@@ -58,13 +58,15 @@ function nextQuestion() {
 
 function compareAnswer(choice){
 
-      // if correct go to next question //
+    // if no more questions, end quiz
    if(questions[index] == questions[4]) {
       endQuiz();
    }
+   // if no time left, end quiz
    else if (secondsLeft<=0){
       endQuiz();
    }
+   // if answer is correct, move on to next question
    else if (choice == questions[index].answer) {
       index++;
       nextQuestion();     
@@ -77,7 +79,7 @@ function compareAnswer(choice){
        
    };
 }
-
+// selects choice based on button clicked
 $('.btn').on("click",function() {
       
    var choice = $(this).attr("data");
@@ -87,7 +89,7 @@ $('.btn').on("click",function() {
 
 nextQuestion();
 });
-
+// 2 clear functions to set up next question/ end screen
 function clear() {
    $("#main").empty();
    $("#question").empty();
@@ -136,7 +138,7 @@ function endQuiz() {
      olEl.appendChild(liTag);
       });
    };
-
+// clear and restart button functionality
 $("#clear").on("click", function() {
    localStorage.clear();
    $("#results").empty();
