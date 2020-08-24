@@ -8,6 +8,35 @@ body{
     align-content: center;
 }
 
-.start{
-    margin: 25px;
+.start {margin: 25px;}
+
+#enterName{
+    background-color: #96d1e3;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container {max-width: 800px;}
+
+.hide {display: none;}
+
+.jumbotron {
+    padding: 1em;
+    background-color: #3f857e;
+    color: whitesmoke;
+    font-weight: 600;
+    border: solid, black;
+    border-width: 12px;
+}
+
+#restart {
+    background-color: green;
+    margin-right: 1em;
+}
+
+#clear {background-color: #96d1e3;}
+
+.header {
+    font-weight: 600;
+    color: rgb(44, 94, 89);
 }

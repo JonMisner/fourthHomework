@@ -21,13 +21,15 @@
 
     <div class="container">
         <div class="header text-center clearfix">
-          <h1 class="text-muted">Jon's Java Script Trivia</h1>
+          <h1 class="header">Jon's Java Script Trivia</h1>
         </div>
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
+            <h1 class="time"></h1>
           <div id="game">
-            <h2>Trivia</h2>
-            <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>
+            <div class="input-group mb-3" id="main">
+              <input type="text" class="form-control" id = "enterName" placeholder="Enter Name"> 
+            </div>
             <p id="question" class="lead"></p>
           </div>
           <div id="results">
@@ -37,22 +39,26 @@
         <div class="row">
           <div class="col -4">
             <div id="choices" class="text-center">
-            <button id="start" class="btn btn-info btn-lg">Start Game</button>
-            <div id="options">
-              
-            </div>
+            <button id="button1" class="btn btn-info btn-lg">Start Game</button>
+            <button id="button2" class="btn btn-info btn-lg hide"></button>
+            <button id="button3" class="btn btn-info btn-lg hide"></button>
+            <button id="button4" class="btn btn-info btn-lg hide"></button>
+            <button id="restart" class="hide btn-lg"></button>
+            <button id="clear" class="hide btn-lg"></button>
+            
             </div>
           </div>
         </div>
   
       </div> 
-
+      </div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script src="assets/main.js"></script>
+    <script src="assets/timer.js"></script>
+    <script src="assets/logic.js"></script>
 
 </body>
 
